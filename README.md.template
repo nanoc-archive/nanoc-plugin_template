@@ -1,0 +1,19 @@
+[![Build Status](https://travis-ci.org/nanoc/nanoc-plugin_template.png)](https://travis-ci.org/nanoc/nanoc-plugin_template)
+[![Code Climate](https://codeclimate.com/github/nanoc/nanoc-plugin_template.png)](https://codeclimate.com/github/nanoc/nanoc-plugin_template)
+[![Coverage Status](https://coveralls.io/repos/nanoc/nanoc-plugin_template/badge.png?branch=master)](https://coveralls.io/r/nanoc/nanoc-plugin_template)
+
+# nanoc-plugin_template
+
+This provides a [plugin_template](http://plugin_template.example.com/) filter for [nanoc](http://nanoc.ws).
+
+## Installation
+
+`gem install nanoc-plugin_template`
+
+## Usage
+
+```ruby
+filter :plugin_template
+```
+
+Options passed to this filter will be passed on to PluginTemplate.
