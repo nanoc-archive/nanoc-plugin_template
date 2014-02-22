@@ -25,6 +25,5 @@ Gem::Specification.new do |s|
   s.extra_rdoc_files = [ 'LICENSE', 'README.md', 'NEWS.md' ]
 
   s.add_runtime_dependency('nanoc', '>= 3.6.7', '< 4.0.0')
-  s.add_runtime_dependency('plugin_template')
   s.add_development_dependency('bundler')
 end
