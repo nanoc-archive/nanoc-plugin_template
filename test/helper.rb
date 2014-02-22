@@ -5,5 +5,5 @@ Coveralls.wear!
 
 require 'minitest'
 require 'minitest/autorun'
-require 'nanoc-core'
+require 'nanoc'
 require 'nanoc-plugin_template'
